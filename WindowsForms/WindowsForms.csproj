@@ -116,6 +116,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AddNewEvent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddNewEvent.Designer.cs">
+      <DependentUpon>AddNewEvent.cs</DependentUpon>
+    </Compile>
     <Compile Include="adminlastform.cs">
       <SubType>Form</SubType>
     </Compile>
